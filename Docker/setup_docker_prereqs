@@ -1,0 +1,9 @@
+#!/bin/bash
+# Install requirements and build dependencies for pytables in Docker.
+
+# Stop on errors
+set -e
+
+# Cleanup
+apt-get clean
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/src/app/build/
