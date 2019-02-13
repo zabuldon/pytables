@@ -1,0 +1,13 @@
+tox
+pylint
+coveralls
+flake8-docstrings
+flake8
+mock-open
+mypy
+pydocstyle
+pytest
+pytest-cov
+pytest-sugar
+pytest-timeout
+requests_mock

@@ -1,0 +1,10 @@
+flask
+flask-sqlalchemy
+flask-bootstrap
+flask-login
+flask-wtf
+flask-restful
+flask-migrate
+python-slugify
+pyyaml
+voluptuous
