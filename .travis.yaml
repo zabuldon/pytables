@@ -29,10 +29,7 @@ matrix:
       env: TOXENV=py38
       dist: xenial
 
-cache:
-  directories:
-    - $HOME/.cache/pip
-install: pip install -U tox coveralls
+install: pip install -U tox-pipenv coveralls
 language: python
 script: travis_wait 30 tox --develop
 services:
