@@ -6,5 +6,5 @@ flask-wtf==0.14.2
 flask-restful==0.3.7
 flask-migrate==2.3.1
 python-slugify==2.0.1
-pyyaml==3.13
+pyyaml==4.2b1
 voluptuous==0.11.5
